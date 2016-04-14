@@ -1,0 +1,27 @@
+html, body {
+  padding: 0;
+  margin: 0;
+  background:url(/home/edward/Documents/Dev/EVD/Img/seattle_skyline_1.jpg) no-repeat center center fixed;
+  background-size: cover;
+  font-family: 'Playfair Display', serif;
+}
+
+.header h1 {
+  font-size: 30px;
+  color: #4B4B4B;
+}
+
+.header a:hover {
+  color: #FFF;
+}
+
+.jumbotron {
+  background: transparent;
+  margin-top: 320px;
+  margin-left: 250px;
+  color: #FFF;
+}
+
+.jumbotron h3 {
+  text-align: center;
+}
