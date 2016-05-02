@@ -1,25 +1,28 @@
 html, body {
   padding: 0;
   margin: 0;
-  background:url(/home/edward/Documents/Dev/EVD/Img/seattle_skyline_1.jpg) no-repeat center center fixed;
+  background:url(/home/edward/Dev/EVD/Img/seattle_skyline_1.jpg) no-repeat center center fixed;
   background-size: cover;
   font-family: 'Playfair Display', serif;
 }
 
 .header h1 {
-  font-size: 30px;
-  color: #4B4B4B;
+  font-size: 35px;
+  color: #7A6A53;
 }
 
 .header a:hover {
-  color: #FFF;
+  color: #948C75;
 }
 
 .jumbotron {
   background: transparent;
-  margin-top: 320px;
-  margin-left: 250px;
-  color: #FFF;
+  color: #D5DED9;
+  padding-top: 370px;
+}
+
+.jumbotron h2 {
+  text-align: center;
 }
 
 .jumbotron h3 {
