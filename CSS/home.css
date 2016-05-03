@@ -79,7 +79,7 @@ html, body {
 .quote .row {
   margin-top: 50px;
   margin-bottom: 100px;
-  background-color: #99B2B7;
+  background-color: #D9CEB2;
   height: 150px;
 }
 
@@ -111,6 +111,49 @@ html, body {
 .quote-button:hover{
   background: #D5DED9;
   text-decoration: none;
+}
+
+.contact {
+  margin-bottom: 180px;
+}
+
+.contact h1 {
+  padding-top: 100px;
+}
+
+.contact ul {
+  list-style: none;
+  margin-top: 100px;
+}
+
+.contact ul li {
+  display: inline-block;
+}
+
+.contact ul li a {
+  text-decoration: none;
+  color: #7A6A53;
+}
+
+.contact-btn {
+  margin-top: 15px;
+  margin-right: 80px;
+  -webkit-border-radius: 5;
+  -moz-border-radius: 5;
+  border-radius: 5px;
+  color: #7A6A53;
+  background: #D9CEB2;
+  width: 120px;
+  height: 50px;
+  border: solid #7A6A53 2px;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 15px;
+}
+
+.contact-btn:hover {
+  background: #D5DED9;
+  transition: all 1.5s ease 0s;
 }
 
 .footer {
