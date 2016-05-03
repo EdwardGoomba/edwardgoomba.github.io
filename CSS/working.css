@@ -1,0 +1,115 @@
+
+.about {
+  background-color: #FFF;
+}
+
+.about h2 {
+  font-weight: bold;
+}
+
+.about h3 {
+  padding: 10px;
+  font-weight: bold;
+}
+
+.about p {
+  font-size: 18px;
+  padding-left: 20px;
+}
+
+.about .col-md-8 {
+  margin: 40px 0 40px 0;
+  padding-left: 40px;
+  height: 373px;
+}
+
+.about ul {
+  list-style: none;
+}
+.about ul li {
+  display: inline;
+  padding: 10px;
+}
+
+.about ul li:hover {
+  font-weight: bold;
+}
+
+.about .col-md-4 {
+  margin: 40px 0 40px 0;
+  height: auto;
+}
+
+.about img {
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px 0 20px 0;
+  border-radius: 30px;
+}
+.projects {
+  background-color: #E8E9EB;
+}
+
+.projects h2 {
+  text-align: center;
+  font-weight: bold;
+  padding: 20px;
+}
+
+.thumbnail {
+  padding: 0;
+  border-radius: 0px;
+  border: 0px;
+}
+
+.thumbnail img {
+  width: 100%;
+  display: block;
+}
+
+#last_row {
+  margin-bottom: 80px;
+}
+
+.contact {
+  background-color: #FFF;
+}
+
+.contact h1 {
+  padding-top: 100px;
+}
+
+.contact h2 {
+  padding-bottom: 130px;
+}
+
+.contact ul {
+  list-style: none;
+  margin-top: 100px;
+}
+
+.contact ul li {
+  display: inline-block;
+}
+
+.contact ul li a {
+  text-decoration: none;
+  color: #FFF;
+}
+
+.contact ul li a:hover{
+  color:#4B4B54
+}
+
+.btn {
+  margin-top: 15px;
+  margin-right: 80px;
+  font-weight: bold;
+  color: #FFF;
+  background-color: #4B4B54;
+}
+
+.btn:hover {
+  border: none;
+}

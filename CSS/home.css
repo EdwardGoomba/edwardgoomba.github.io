@@ -5,13 +5,14 @@ html, body {
 }
 
 .menu {
-  background: #E8E9EB;
-  min-height: 40px;
+  background: #D5DED9;
+  min-height: 60px;
 }
 
 .menu p {
   float: left;
-  padding-top: 10px;
+  font-size: 35px;
+  color: #7A6A53;
 }
 
 .menu ul.nav {
@@ -23,156 +24,47 @@ html, body {
 
 .menu ul.nav li {
   display: inline-block;
-  height:40px;
-  line-height: 40px;
+  height:60px;
+  line-height: 60px;
   margin: 0;
   padding: 0 20px;
   text-align: center;
 }
 
-.menu ul.nav li:hover, .menu ul.nav li.active {
+.menu ul.nav li:hover {
   background: #FFF;
+  transition: all 1.5s ease 0s;
 }
 
 .menu ul.nav li a {
   color: #4B4B54;
   margin: 0;
   padding: 0;
+  font-weight: bold;
 }
 
+.menu .container ul.nav li a #home {
+  color: red;
+}
 .menu ul.nav li a:hover {
   background: transparent;
 }
 
 .main {
-  background:url(/home/edward/Documents/Dev/EVD/Img/seattle_center_1.jpg) no-repeat center;
+  background:url(/home/edward/Dev/EVD/Img/seattle-center1.jpg) no-repeat center;
   background-size: cover;
-  height: 250px;
+  height: 400px;
 }
 
-.main h2{
-  padding-top: 90px;
-  color: #262626;
-  text-align: center;
-}
-
-.about {
-  background-color: #FFF;
-}
-
-.about h2 {
-  font-weight: bold;
-}
-
-.about h3 {
-  padding: 10px;
-  font-weight: bold;
-}
-
-.about p {
-  font-size: 18px;
-  padding-left: 20px;
-}
-
-.about .col-md-8 {
-  margin: 40px 0 40px 0;
-  padding-left: 40px;
-  height: 373px;
-}
-
-.about ul {
-  list-style: none;
-}
-.about ul li {
-  display: inline;
-  padding: 10px;
-}
-
-.about ul li:hover {
-  font-weight: bold;
-}
-
-.about .col-md-4 {
-  margin: 40px 0 40px 0;
-  height: auto;
-}
-
-.about img {
-  display:block;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 20px 0 20px 0;
-  border-radius: 30px;
-}
-.projects {
-  background-color: #E8E9EB;
-}
-
-.projects h2 {
-  text-align: center;
-  font-weight: bold;
-  padding: 20px;
-}
-
-.thumbnail {
-  padding: 0;
-  border-radius: 0px;
-  border: 0px;
-}
-
-.thumbnail img {
-  width: 100%;
-  display: block;
-}
-
-#last_row {
-  margin-bottom: 80px;
-}
-
-.contact {
-  background-color: #FFF;
-}
-
-.contact h1 {
-  padding-top: 100px;
-}
-
-.contact h2 {
-  padding-bottom: 130px;
-}
-
-.contact ul {
-  list-style: none;
-  margin-top: 100px;
-}
-
-.contact ul li {
-  display: inline-block;
-}
-
-.contact ul li a {
-  text-decoration: none;
-  color: #FFF;
-}
-
-.contact ul li a:hover{
-  color:#4B4B54
-}
-
-.btn {
-  margin-top: 15px;
-  margin-right: 80px;
-  font-weight: bold;
-  color: #FFF;
-  background-color: #4B4B54;
-}
-
-.btn:hover {
-  border: none;
+.main h1{
+  float: right;
+  padding-top: 150px;
+  color: #7A6A53;
+  font-weight: 600;
 }
 
 .footer {
-  background: #E8E9EB;
+  background: #D5DED9;
   min-height: 40px;
 }
 
@@ -197,8 +89,9 @@ html, body {
   text-align: center;
 }
 
-.footer ul.nav li:hover, .menu ul.nav li.active {
+.footer ul.nav li:hover {
   background: #FFF;
+  transition: all 1.5s ease 0s;
 }
 
 .footer ul.nav li a {
