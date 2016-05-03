@@ -92,20 +92,25 @@ html, body {
 
 .quote-text h3 {
   font-weight: bold;
+  padding-bottom: 12px;
 }
 
 .quote .quote-button {
-  background-color: #99B2B7;
+  -webkit-border-radius: 5;
+  -moz-border-radius: 5;
+  border-radius: 5px;
   color: #7A6A53;
-  font-size: 18px;
-  padding: 8px 30px;
+  font-size: 20px;
+  background: #99B2B7;
+  padding: 10px 20px 10px 20px;
+  border: solid #7A6A53 2px;
   text-decoration: none;
-  display: inline-block;
 
 }
 
 .quote-button:hover{
-  background-color: #D5DED9;
+  background: #D5DED9;
+  text-decoration: none;
 }
 
 .footer {
