@@ -15,16 +15,16 @@ html, body {
   color: #948C75;
 }
 
-.jumbotron {
+.intro {
   background: transparent;
   color: #D5DED9;
-  padding-top: 370px;
+  padding-top: 30%;
 }
 
-.jumbotron h2 {
+.intro h2 {
   text-align: center;
 }
 
-.jumbotron h3 {
+.intro h3 {
   text-align: center;
 }

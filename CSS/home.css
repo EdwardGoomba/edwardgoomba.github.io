@@ -43,9 +43,6 @@ html, body {
   font-weight: bold;
 }
 
-.menu .container ul.nav li a #home {
-  color: red;
-}
 .menu ul.nav li a:hover {
   background: transparent;
 }
@@ -56,11 +53,59 @@ html, body {
   height: 400px;
 }
 
-.main h1{
+.main h1 {
   float: right;
   padding-top: 150px;
   color: #7A6A53;
   font-weight: 600;
+}
+
+.body h4 {
+  padding-top: 50px;
+  padding-bottom: 20px;
+  font-weight: 800;
+  color: #7A6A53;
+  text-align: center;
+}
+
+.body p {
+  text-align: center;
+  line-height: 30px;
+  padding-bottom: 40px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.quote .row {
+  margin-top: 50px;
+  margin-bottom: 100px;
+  background-color: #99B2B7;
+  height: 150px;
+}
+
+.quote-text {
+  padding-top: 10px;
+  padding-bottom: 5px;
+  color: #7A6A53;
+  text-align: center;
+}
+
+.quote-text h3 {
+  font-weight: bold;
+}
+
+.quote .quote-button {
+  background-color: #99B2B7;
+  color: #7A6A53;
+  font-size: 18px;
+  padding: 8px 30px;
+  text-decoration: none;
+  display: inline-block;
+
+}
+
+.quote-button:hover{
+  background-color: #D5DED9;
 }
 
 .footer {
