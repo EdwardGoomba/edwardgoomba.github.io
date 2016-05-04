@@ -28,3 +28,9 @@ html, body {
 .intro h3 {
   text-align: center;
 }
+
+@media only screen and (max-width: 500px) {
+    .intro {
+    padding-top: 70%;
+  }
+}
