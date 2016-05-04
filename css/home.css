@@ -48,7 +48,7 @@ html, body {
 }
 
 .main {
-  background:url(/home/edward/Dev/EVD/Img/seattle-center1.jpg) no-repeat center;
+  background:url(/home/edward/Dev/EVD/img/seattle-center1.jpg) no-repeat center;
   background-size: cover;
   height: 400px;
 }
@@ -60,7 +60,7 @@ html, body {
   font-weight: 600;
 }
 
-.body h4 {
+.body h3 {
   padding-top: 50px;
   padding-bottom: 20px;
   font-weight: 800;
@@ -68,7 +68,7 @@ html, body {
   text-align: center;
 }
 
-.body p {
+.body h4 {
   text-align: center;
   line-height: 30px;
   padding-bottom: 40px;
@@ -111,6 +111,31 @@ html, body {
 .quote-button:hover{
   background: #D5DED9;
   text-decoration: none;
+}
+
+.about {
+  padding-bottom: 50px;
+}
+
+.about h3 {
+  padding-top: 20px;
+  color: #7A6A53;
+  font-weight: bold;
+}
+
+.about h4 {
+  line-height: 30px;
+  padding-top: 18px;
+  padding-right: 10px;
+}
+
+.about ul {
+  padding-top: 10px;
+  line-height: 30px;
+}
+
+.about ul li:hover {
+  font-weight: bold;
 }
 
 .contact {
