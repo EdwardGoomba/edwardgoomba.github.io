@@ -1,7 +1,7 @@
 html, body {
   padding: 0;
   margin: 0;
-  background:url(/home/edward/Dev/EVD/Img/seattle_skyline_1.jpg) no-repeat center center fixed;
+  background:url(/img/seattle_skyline_1.jpg) no-repeat center center fixed;
   background-size: cover;
   font-family: 'Playfair Display', serif;
 }
