@@ -29,8 +29,18 @@ html, body {
   text-align: center;
 }
 
+/* Query to move quote down for visibility */
 @media only screen and (max-width: 500px) {
     .intro {
     padding-top: 70%;
   }
+}
+
+/* Portrait and Landscape */
+@media only screen
+  and (min-device-width: 500px)
+  and (max-device-width: 1024px)
+  and (-webkit-min-device-pixel-ratio: 1) {
+    .intro {
+    padding-top: 70%;
 }
